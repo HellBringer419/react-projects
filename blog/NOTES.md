@@ -23,6 +23,9 @@ An app for create and submit blogs
 	` $ yarn dev `
 	This is live-reload so, all code changes will be reflected (just like React)
 
-4. Please read a brief overview of the folder structure below.
+4. Please read a brief overview of the folder structure below. (TODO)
 
-5. 
+5. The `./pages/` (folder) keeps track of the routes. 
+	Add contents for the [/](http://localhost:3000/) (route) in index.js. 
+
+6. Created `blog/` inside `pages/`. These files would be accessible by [/blogs/1](http://localhost:3000/blogs/1) and [/blogs/2](http://localhost:3000/blogs/2)
